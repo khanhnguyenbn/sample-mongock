@@ -1,0 +1,14 @@
+server:
+  port: 6819
+spring:
+  application: Tutor Answer Service
+  data:
+    mongodb:
+      #      uri: mongodb://replytool:R3plyT0ot345@dev.math.giaingay.io:27017/reply-tool
+      #      database: reply-tool
+#      uri: mongodb://khanhnguyen:khanh123456@localhost:27017/tutor
+      uri: mongodb://localhost:27017/base-concept
+#      database: base-concept
+  mongock:
+    change-logs-scan-package:
+      - com.example.demo.changelogs
